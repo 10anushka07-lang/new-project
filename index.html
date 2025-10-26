@@ -1,2 +1,96 @@
+<!DOCTYPE html>
 <html>
+<head>
+    <title>Game Hub</title>
+    <style>
+        body {
+            background-color: black;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-size: 50px;
+            margin: 30px 0;
+            color: cyan;
+            text-shadow: 0 0 10px cyan, 0 0 20px cyan;
+        }
+
+        .games {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 40px;
+            margin-top: 50px;
+        }
+
+        .game {
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .game img {
+            width: 150px;
+            height: 150px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px purple;
+            cursor: pointer;
+        }
+
+        .game img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px cyan, 0 0 30px cyan;
+        }
+
+        .game p {
+            margin-top: 10px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🎮 GAME HUB 🎮</h1>
+
+    <div class="games">
+        <div class="game">
+            <a href="tic_tac_toe.html">
+                <img src="images/tic tac toe.png" alt="Tic Tac Toe">
+            </a>
+            <p>❌ Tic Tac Toe ⭕</p>
+        </div>
+
+        <div class="game">
+            <a href="rock_paper_scissor.html">
+                <img src="images/rock paper scissors.jpg" alt="Rock Paper Scissors">
+            </a>
+            <p>✊✋ Rock Paper Scissors✌</p>
+        </div>
+
+        <div class="game">
+            <a href="guess_number.html">
+                <img src="images/guess the no.jpg" alt="Guess the Number">
+            </a>
+            <p>🔢 Guess the Number</p>
+        </div>
+
+        <div class="game">
+            <a href="chess.html">
+                <img src="images/chess.jpg" alt="Chess">
+            </a>
+            <p>♟ Chess (Coming Soon)</p>
+        </div>
+
+        <div class="game">
+            <a href="ludo.html">
+                <img src="images/ludo.jpg" alt="Ludo">
+            </a>
+            <p>🎲 Ludo (Coming Soon)</p>
+        </div>
+    </div>
+
+</body>
 </html>
