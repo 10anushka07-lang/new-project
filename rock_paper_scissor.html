@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>✊ Rock Paper Scissors ✋</title>
+  <link rel="stylesheet" href="stylerockpaper.css">
+</head>
+<body>
+  <h1>✊ Rock Paper Scissors ✋</h1>
+
+  <div class="score-board">
+    <div>User: <span id="user-score">0</span></div>
+    <div>Computer: <span id="comp-score">0</span></div>
+  </div>
+
+  <div class="choices">
+    <div class="choice" data-choice="rock">✊</div>
+    <div class="choice" data-choice="paper">✋</div>
+    <div class="choice" data-choice="scissors">✌️</div>
+  </div>
+
+  <div class="msg-container hide">
+    <p id="msg">Winner</p>
+    <button id="new-btn">New Game</button>
+  </div>
+
+  <script src="rps.js"></script>
+</body>
+</html>
